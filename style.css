@@ -5,7 +5,7 @@
 }
 
 :root {
-  --hue: 270;
+  --hue: 380;
   --primary-color: hsl(var(--hue), 40%, 10%);
   --headline: hsl(210, 11%, 15%);
   --paragraph: hsl(210, 9%, 31%);
@@ -14,8 +14,10 @@
   --brand-light: hsl(calc(var(--hue) - 22), 23%, 89%);
   --brand-light-2: hsl(calc(var(--hue) + 10), 14%, 97%);
   --brand-dark: hsl(var(--hue), 100%, 14%);
+ 
 
   --bg-light: hsl(180, 14%, 97%);
+  --brand-light: hsl(380, 40%, 90%);
 
   font-size: 62.5%; 
   --nav-height: 7.2rem;
@@ -147,7 +149,7 @@ nav {
   display: flex;
   
   height: var(--nav-height);
-  background: var(--bg-light);
+  background: var(--brand-light);
   position: fixed;
   top: 0;
   width: 100vw;

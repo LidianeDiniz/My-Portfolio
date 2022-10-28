@@ -292,6 +292,12 @@ body.menu-expanded button path {
   padding-top: calc(4.1rem + var(--nav-height));
 }
 
+#home .button img {
+width: 28px;
+ margin-top: 0.2rem;
+  
+}
+
 #home::before {
   content: '';
   width: 100%;
@@ -318,7 +324,7 @@ body.menu-expanded button path {
   margin-bottom: 3.2rem;
 }
 
-#home img {
+#home .col-b img {
   width: 26.4rem;
   display: block;
   margin-inline: auto;
@@ -420,13 +426,26 @@ body.menu-expanded button path {
 }
 
 #contact ul li a {
-  display: flex;
+  display: inline;
   align-items: center;
   gap: 1.8rem;
   text-decoration: none;
   color: var(--brand-black)
   
 }
+ 
+#contact .email{
+margin-bottom: -0.5rem;
+}
+
+#contact .phone{
+  margin-top: 0.1rem;
+}
+
+#contact .place{
+  margin-bottom: -0.5rem;
+}
+
 
 
 

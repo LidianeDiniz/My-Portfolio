@@ -1,3 +1,7 @@
+
+### [Meu Portifólio](https://my-portfolio-ko4lgb75a-lidianediniz.vercel.app/)
+- 🛠️ Tecnologias: React.js, Next.js.
+
 ## Como Rodar o Código 🚀
 ```bash
 # Clone este repositório
